@@ -5,7 +5,7 @@
 ---
 
  I hope to build a utility for interacting with my own or existing projects on cardano. I am currently learning and experimenting
- with different development patterns in order to feel more comfortable and better understand the use cases and flow when writing 
+ with different development patterns in order to feel more comfortable and better understand the use cases and flow when developing 
  in a functional manner. The first commit of code here includes a few of the learning goals currently implemented. A few of them noted here... 
  
  - git repo commited
@@ -29,11 +29,11 @@ I will be adding in the coming days.
 
 I plan to continue this project and maybe add interactions with cardano node, cli, and other services in the ecosystem as I learn more. 
 
+---
 
+# Setup & run
 
-# setup & run
-
-**setup**
+**Setup**
 
 After cloning repo you will need to add a file **config/blockfrosttoken** that contains your blockfrost projectid. See config/EXAMPLEblockfrosttoken for example mainnet format
 
