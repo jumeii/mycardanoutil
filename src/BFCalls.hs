@@ -24,7 +24,7 @@ getAccountAdaAndHosky = do
   someHoskyAssetNameHex <- getHoskyAssetNameHex
   prj <- projectFromFile "config/blockfrosttoken" 
   res <- runBlockfrost prj $ getAccount (mkAddress (T.pack (someAddress someStakeAddress)))
-  res2 <- runBlockfrost prj $ getAddressUtxosAsset (mkAddress (T.pack (someAddress someStakeAddress))) (mkAssetId (T.pack someHoskyPolicyId <> T.pack someHoskyAssetNameHex)) --not working? NOT OK
+  res2 <- runBlockfrost prj $ getAddressUtxosAsset (mkAddress (T.pack (someAddress someStakeAddress))) (mkAssetId (T.pack someHoskyPolicyId <> T.pack someHoskyAssetNameHex)) --issue with addr?
   renderUpdates
   putStr (someAddress someStakeAddress)
   moveUnderHeader

@@ -28,3 +28,15 @@ I will be adding in the coming days.
 **Future**
 
 I plan to continue this project and maybe add interactions with cardano node, cli, and other services in the ecosystem as I learn more. 
+
+
+
+# setup & run
+
+**setup**
+
+After cloning repo you will need to add a file **config/blockfrosttoken** that contains your blockfrost projectid. See config/EXAMPLEblockfrosttoken for example mainnet format
+
+Next you will want to change the list of addresses you would like to choose from in the utility. These are located in **config/walletaddress.config**
+
+Now you can run by running **cabal run**

@@ -1,5 +1,5 @@
 # Revision history for mycardanoutil
 
-## 0.1.0.0 -- YYYY-mm-dd
+## 0.4.2.0 -- 22-07-08
 
-* First version. Released on an unsuspecting world.
+* First version. Not much here... yet :)
